@@ -1,12 +1,12 @@
 {
     "basics": {
         "name": "Pablo Elgueta Vergara",
-        "label": "Desarrollador de Software",
+        "label": "Ingeniero de Software especializado en el desarrollo integral de soluciones tecnológicas con un enfoque detallado en la calidad y la innovación.",
         "image": "https://media.licdn.com/dms/image/D4E03AQEU1Ds_F-l22w/profile-displayphoto-shrink_200_200/0/1703215799716?e=1715212800&v=beta&t=y9xJqxtC0kgVrTYqhs44qmLvAudahAKKOYlCfOysnt4",
         "email": "pablo.elguetav@gmail.com",
         "phone": "+56 931038270",
         "url": "https://midu.dev",
-        "summary": "+3 años de experiencia como Desarrollador de Software. Actualmente soy desarrollador para una empresa de Seguros. Vivo en Valdivia, Chile.",
+        "summary": "+3 años de experiencia como Desarrollador de Software, actualmente desempeño este rol en una empresa de seguros con sede en Santiago, Chile, trabajando de forma remota desde Valdivia. Mi pasión por la tecnología y el desarrollo de software me ha llevado a liderar proyectos innovadores y desafiantes que contribuyen al éxito de las empresas para las que trabajo.",
         "location": {
             "address": "",
             "postalCode": "5090000",
@@ -29,23 +29,23 @@
     },
     "work": [
         {
-            "name": "Prosys Ingeniería SPA",
+            "name": "Prosys",
             "position": "Desarrollador de Software",
             "url": "https://www.prosys.cl/",
-            "startDate": "2023-08-05",
+            "startDate": "2023",
             "endDate": null,
-            "summary": "Streamer de programación más visto en Español en Twitch. +1 millón de seguidores entre todas mis redes sociales. Reconocido por Google, Microsoft y GitHub por mi impacto en la comunidad de desarrolladores.",
+            "summary": "Lideré la migración exitosa de reportes Java a través de un microservicio integrado con FOP para generar PDFs. Desarrollé un visor de documentos Blazor, orquestado con microservicios, mejorando la accesibilidad y usabilidad. En estos momentos me encuentro migrando servicios SOAP a microservicios .NET, incluyendo la transformación de formularios ASP.NET a Blazor. Tecnologías utilizadas: .NET, Blazor, Oracle SQL, GIT, Bitbucket, Jira y Scrum. Estos avances reflejan nuestro compromiso con la modernización y la eficiencia de los sistemas de gestión de siniestros de HDI Seguros.",
             "highlights": [
                 "Started the company"
             ]
         },
         {
-            "name": "Intgra SPA",
+            "name": "Intgra",
             "position": "Analista Programador",
             "url": "https://intgra.cl/",
-            "startDate": "2020-06-05",
-            "endDate": "2023-02-30",
-            "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
+            "startDate": "2020",
+            "endDate": "2024",
+            "summary": "Lideré la implementación exitosa de más de 30 tiendas electrónicas utilizando la plataforma Softland. Participé activamente en el desarrollo y mejora continua de la segunda versión del producto de tienda, así como en la colaboración para el desarrollo de mantenedores del sitio de administración. Además, lideré el desarrollo de un cambio crucial para la visualización de precios en las tiendas, implementando tecnologías como HTML, CSS, Bootstrap, JavaScript, TypeScript, Angular, .NET Core, GIT y SQL.",
             "highlights": [
                 "Started the company"
             ]
@@ -66,16 +66,29 @@
     ],
     "education": [
         {
-            "institution": "Universitat Oberta de Catalunya",
+            "institution": "Universidad Santo Tomás",
             "url": "https://www.uoc.edu/portal/es/index.html",
-            "area": "Ingeniero de Software",
-            "studyType": "Bachelor",
-            "startDate": "2003-01-01",
-            "endDate": "2009-01-01",
+            "area": "Ingeniería en Informática",
+            "studyType": "Pregrado",
+            "startDate": "2010",
+            "endDate": "2017",
+            "summary": "Description…",
             "score": "4.0",
             "courses": [
-                "DB1101 - Basic SQL"
+                "CCNA - Introduction to Networks",
+                "CCNA - Switching, Routing, and Wireless Essentials"
             ]
+        },
+        {
+            "institution": "Universidad Santo Tomás",
+            "url": "https://www.uoc.edu/portal/es/index.html",
+            "area": "Diplomado Conectividad y Redes de Datos",
+            "studyType": "Diplomado",
+            "startDate": "2017",
+            "endDate": "2018",
+            "summary": "Description…",
+            "score": "4.0",
+            "courses": []
         }
     ],
     "awards": [
@@ -92,6 +105,26 @@
             "date": "2021-11-07",
             "issuer": "Company",
             "url": "https://certificate.com"
+        }
+    ],
+    "courses": [
+        {
+            "name": "Patrones de Diseño de Software en C# - Curso Prácticob - Udemy",
+            "date": "2024",
+            "academy": "Udemy",
+            "url": "https://www.udemy.com/certificate/UC-b6a55bad-a216-4e74-ba6c-283565520df2/"
+        },
+        {
+            "name": "Construyendo Web APIs RESTful con ASP.NET Core 6 - Udemy",
+            "date": "2023",
+            "academy": "Udemy",
+            "url": "https://www.udemy.com/certificate/UC-fe4b9942-a46f-41b2-8eae-f3183f3d6c0c/"
+        },
+        {
+            "name": "JavaScript Moderno: Guía para dominar el lenguaje - Udemy",
+            "date": "2023",
+            "academy": "Udemy",
+            "url": "https://www.udemy.com/certificate/UC-10f96368-b805-4a61-9851-305ba7cc3e36/"
         }
     ],
     "publications": [
@@ -279,66 +312,11 @@
     ],
     "projects": [
         {
-            "name": "mars.codes",
-            "isActive": true,
-            "description": "Historia interactiva con retos de programación para viajar a Marte",
-            "highlights": [
-                "Elige tu propia aventura",
-                "En desarrollo"
-            ],
-            "url": "https://mars.codes"
-        },
-        {
-            "name": "AdventJS",
-            "isActive": true,
-            "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
-            "highlights": [
-                "+1 millón de visitas",
-                "Multidioma",
-                "JavaScript & TypeScript"
-            ],
-            "url": "https://adventjs.dev"
-        },
-        {
-            "name": "Codember",
-            "isActive": true,
-            "description": "Juego interactivo de programación con retos y secretos",
-            "highlights": [
-                "+2000 usuarios activos",
-                "Retos para cualquier lenguaje"
-            ],
-            "url": "https://codember.dev"
-        },
-        {
-            "name": "codi.link",
-            "isActive": true,
-            "description": "Playground de código HTML, CSS y JavaScript para compartir",
-            "highlights": [
-                "100k visitas al mes",
-                "Desarrollado por la comunidad"
-            ],
-            "url": "https://codi.link",
-            "github": "https://github.com/midudev/codi.link"
-        },
-        {
-            "name": "Pruebas Técnicas",
-            "isActive": true,
-            "description": "Lista de pruebas técnicas de empresas para practicar programación",
-            "highlights": [
-                "100% gratuito",
-                "+500 soluciones de la comunidad"
-            ],
-            "url": "https://pruebastecnicas.com",
-            "github": "https://github.com/midudev/pruebas-tecnicas"
-        },
-        {
-            "name": "miduConf",
-            "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
-            "highlights": [
-                "+15k tickets repartidos",
-                "+50k espectadores en directo"
-            ],
-            "url": "https://miduconf.com"
+            "name": "",
+            "isActive": false,
+            "description": "",
+            "highlights": [],
+            "url": ""
         }
     ]
 }

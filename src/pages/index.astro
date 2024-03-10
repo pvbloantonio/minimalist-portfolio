@@ -8,6 +8,7 @@ import Hero from "../components/sections/Hero.astro";
 import Projects from "../components/sections/Projects.astro";
 import Skills from "../components/sections/Skills.astro";
 import KeyboardManager from "../components/KeyboardManager.astro";
+import Course from "../components/sections/Course.astro";
 
 import { basics } from "@/cv.json";
 const { name, label } = basics;
@@ -19,8 +20,9 @@ const { name, label } = basics;
 		<About />
 		<Experience />
 		<Education />
-		<Projects />
+		<Course />
 		<Skills />
+		<Projects />
 	</main>
 	<KeyboardManager />
 </Layout>

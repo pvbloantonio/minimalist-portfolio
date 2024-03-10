@@ -1,0 +1,61 @@
+---
+import Section from "../Section.astro";
+
+import { courses } from "@/cv.json";
+---
+
+<Section title="Certificados y Cursos">
+    <ul>
+        {
+            courses.map(({ name, date, url }) => {
+                return (
+                    <li>
+                        <article>
+                            <header>
+                                <div>
+                                    <a href={url} target="_blank">
+                                        <h4>{name}</h4>
+                                    </a>
+                                </div>
+
+                                <time>{date}</time>
+                            </header>
+                        </article>
+                    </li>
+                );
+            })
+        }
+    </ul>
+</Section>
+<style>
+    ul {
+        display: flex;
+        flex-direction: column;
+    }
+    article h3 {
+        font-weight: 500;
+        color: #111;
+    }
+
+    article h4 {
+        color: #222;
+        font-weight: 400;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 4px;
+    }
+
+    time {
+        color: #555;
+        font-size: 0.85rem;
+    }
+    @media (width <= 700px) {
+        time {
+            text-align: right;
+        }
+    }
+</style>
